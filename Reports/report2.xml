@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="19.424591">
+<testcase classname="Inventory" name="Title of your scenario" time="19.424591">
+<system-out><![CDATA[Given lauch the url.........................................................passed
+And login the application...................................................passed
+When creat supplier.........................................................passed
+And create product..........................................................passed
+And click on inventory......................................................passed
+Then check the product......................................................passed
+And logout the application..................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
