@@ -24,7 +24,7 @@ public class StepDefinition {
 
 	@Given("^lauch the url$")
 	public void lauch_the_url() throws Throwable {
-
+	    
 	}
 
 	@Given("^login the application$")
