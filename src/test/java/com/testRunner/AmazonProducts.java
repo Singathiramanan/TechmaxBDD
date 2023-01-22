@@ -15,14 +15,13 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features = {
-		"E:\\Disk2\\Eclipse\\TechmaxBDD\\src\\test\\java\\com\\features\\Inventory_techmax.feature" }, glue = "com.stepDefinition",
-				dryRun = true, monochrome=true,strict=false,plugin={"pretty","json:Reports/report2.json","html:Reports/report2.html","junit:Reports/report2.xml",
-		})
-
-public class InventoryTest {
+"E:\\Disk2\\Eclipse\\TechmaxBDD\\src\\test\\java\\com\\features\\AmazonAllPhones.feature" }, glue = "com.stepDefinition",
+		dryRun = false, monochrome=true,strict=false,plugin={"pretty","json:Reports/report2.json","html:Reports/report2.html","junit:Reports/report2.xml",
+})
+public class AmazonProducts {
 	public static FileUtility fLib = new FileUtility();
 	public static WebDriver driver;
-
+	
 	@BeforeClass
 	public static void launchBrowser() throws Throwable {
 		System.out.println("=============Launch the Browser=======");
